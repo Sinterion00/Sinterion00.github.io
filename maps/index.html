@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carte interactive - Westeros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Carte interactive — Angouleme (démo)</h1>
+    <p>Astuce : maintiens <kbd>Shift</kbd> et clique sur la carte pour récupérer des coordonnées en %.</p>
+  </header>
+
+  <main>
+    <div class="map-shell">
+      <div id="map" class="map-container" aria-label="Carte interactive de Westeros">
+        <img id="mapImage" src="images/MAP angouleme.png" alt="Carte de Westeros">
+        <div id="tooltip" class="tooltip" role="dialog" aria-modal="false" aria-hidden="true"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
